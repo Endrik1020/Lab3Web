@@ -37,7 +37,24 @@ Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
  </ol>
 </section>
 ~~~
-![2a](https://user-images.githubusercontent.com/81820421/114278292-4ed0b680-9a59-11eb-92cf-f3e897136857.JPG)
+![2a](https://user-images.githubusercontent.com/81820421/114278483-4462ec80-9a5a-11eb-83ad-4ab7c0c77d58.JPG)
+
+## 2. Membuat Unorderd List
+Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada 
+section unordered-list, seperti berikut.
+~~~
+<section id="unorder-list">
+ <h2>Unordered List</h2>
+ <ul type="square">
+ <li>Jaringan Komputer</li>
+ <li>Struktur Data</li>
+ <li>Algoritma &amp; Pemrograman</li>
+ </ul>
+</section>
+~~~
+![3](https://user-images.githubusercontent.com/81820421/114278508-65c3d880-9a5a-11eb-916c-fd4850327c0d.JPG)
+
+
 
 
 
