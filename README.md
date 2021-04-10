@@ -199,7 +199,38 @@ Buat file baru dengan nama lab3_form.html seperti berikut.
  <input id="jk_l" type="radio" name="kelamin" value="L" /><label
 for="jk_l">Laki-laki</label>
  <input id="jk_p" type="radio" name="kelamin" value="P" /><label
- ~~~
+ or="jk_p">Perempuan</label>
+ </p>
+ <p><input type="submit" value="Login"></p>
+ </fieldset>
+</form>
+~~~
+![tform2](https://user-images.githubusercontent.com/81820421/114280268-a7588180-9a62-11eb-9481-cdba9265648e.JPG)
+## 3.2 Menabahkan Style pada Form
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+~~~
+<style>
+ form p > label {
+ display: inline-block;
+ width: 100px;
+ }
+ form input[type="text"], form textarea {
+ border: 1px solid #197a43;
+ }
+ form input[type="submit"] {
+ border: 1px solid #197a43;
+ background-color: #197a43;
+ color: #ffffff;
+ font-weight: bold;
+ padding: 5px 15px;
+ }
+</style>
+~~~
+![tform3](https://user-images.githubusercontent.com/81820421/114280397-34033f80-9a63-11eb-9811-037dc0556a96.JPG)
+
+
+
+
 
 
 
