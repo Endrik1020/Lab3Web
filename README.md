@@ -130,5 +130,38 @@ cellspacing pada tag table.
 ~~~
 ![tabel3](https://user-images.githubusercontent.com/81820421/114279206-af61f280-9a5d-11eb-95e8-4244d3ae1b24.JPG)
 
+## 7. Menggabungkan Sel Data
+Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk 
+menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara 
+horizontal). 
+~~~
+<table border="1" cellpadding="6" cellspacing="0">
+ <thead>
+ <tr>
+ <th>No.</th>
+ <th>Fakultas</th>
+ <th>Program Studi</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1.</td>
+ <td rowspan="3">Teknik</td>
+ <td>Teknik Informatika</td>
+ </tr>
+ <tr>
+ <td>2.</td>
+ <td>Teknik Industri</td>
+ </tr>
+ <tr>
+ <td>3.</td>
+ <td>Teknik Lingkungan</td>
+ </tr>
+ </tbody>
+</table>
+~~~
+![tabel4](https://user-images.githubusercontent.com/81820421/114279358-737b5d00-9a5e-11eb-9614-c92ac84402ad.JPG)
+
+
 
 
