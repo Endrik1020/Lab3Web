@@ -39,7 +39,7 @@ Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
 ~~~
 ![2a](https://user-images.githubusercontent.com/81820421/114278483-4462ec80-9a5a-11eb-83ad-4ab7c0c77d58.JPG)
 
-## 2. Membuat Unorderd List
+## 3. Membuat Unorderd List
 Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada 
 section unordered-list, seperti berikut.
 ~~~
@@ -54,6 +54,24 @@ section unordered-list, seperti berikut.
 ~~~
 ![3](https://user-images.githubusercontent.com/81820421/114278508-65c3d880-9a5a-11eb-916c-fd4850327c0d.JPG)
 
+## 4. Membuat Description List
+Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
+~~~
+<section id="unorder-list">
+ <h2>Description List</h2>
+ <dl>
+ <dt>Fakultas Teknik</dt>
+ <dd>Teknik Industri</dd>
+ <dd>Teknik Informatika</dd>
+ <dd>Teknik Lingkungan</dd>
+ <dt>Fakultas Ekonomi dan Bisnis</dt>
+ <dd>Akuntansi</dd>
+ <dd>Manajemen</dd>
+ <dd>Bisnis Digital</dd>
+ </dl>
+</section>
+~~~
+![4](https://user-images.githubusercontent.com/81820421/114278722-4ed1b600-9a5b-11eb-83bb-5034d1406986.JPG)
 
 
 
