@@ -162,6 +162,45 @@ horizontal).
 </table>
 ~~~
 ![tabel4](https://user-images.githubusercontent.com/81820421/114279358-737b5d00-9a5e-11eb-9614-c92ac84402ad.JPG)
+## 3. MEMBUAT FORM
+## 3.1 Membuat form 
+Buat file baru dengan nama lab3_form.html seperti berikut.
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>HTML Lanjutan</title>
+</head>
+<body>
+ <header>
+ <h1>Membuat Form</h1>
+ </header>
+</body>
+</html>
+~~~
+![tform1](https://user-images.githubusercontent.com/81820421/114279942-43818900-9a61-11eb-82ed-920c4aa54fad.JPG)
+# Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
+~~~
+<form action="proses.php" method="post">
+ <fieldset>
+ <legend>Data Pelanggan</legend>
+ <p>
+ <label for="nama">Nama</label>
+ <input type="text" id="nama" name="nama">
+ </p>
+ <p>
+ <label for="alamat">Alamat</label>
+ <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+ </p>
+ <p>
+ <label>Jenis Kelamin</label>
+ <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+for="jk_l">Laki-laki</label>
+ <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+ ~~~
+
 
 
 
