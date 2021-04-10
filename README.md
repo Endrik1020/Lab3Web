@@ -122,4 +122,13 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
 ~~~
 ![tabel2](https://user-images.githubusercontent.com/81820421/114278972-7412f400-9a5c-11eb-973b-aae568aea68a.JPG)
 
+## 6. Mengatur Margin dan Padding
+Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan 
+cellspacing pada tag table.
+~~~
+<table border="1" cellpadding="4" cellspacing="4">
+~~~
+![tabel3](https://user-images.githubusercontent.com/81820421/114279206-af61f280-9a5d-11eb-95e8-4244d3ae1b24.JPG)
+
+
 
