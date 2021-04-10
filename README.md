@@ -73,6 +73,24 @@ Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorder
 ~~~
 ![4](https://user-images.githubusercontent.com/81820421/114278722-4ed1b600-9a5b-11eb-83bb-5034d1406986.JPG)
 
+## 5. Membuat Tabel
+Buat file baru dengan nama lab3_tabel.html seperti berikut.
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>HTML Lanjutan</title>
+</head>
+<body>
+ <header>
+ <h1>Membuat Table</h1>
+ </header>
+</body>
+</html>
+~~~
+![tabel1](https://user-images.githubusercontent.com/81820421/114278832-c9023a80-9a5b-11eb-91af-79c73a06970f.JPG)
 
 
 
