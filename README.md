@@ -91,6 +91,35 @@ Buat file baru dengan nama lab3_tabel.html seperti berikut.
 </html>
 ~~~
 ![tabel1](https://user-images.githubusercontent.com/81820421/114278832-c9023a80-9a5b-11eb-91af-79c73a06970f.JPG)
-
+Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
+~~~
+<table border="1" cellpadding="4" cellspacing="0">
+ <thead>
+ <tr>
+ <th>No.</th>
+ <th>Fakultas</th>
+ <th>Program Studi</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1.</td>
+ <td>Teknik</td>
+ <td>Teknik Informatika</td>
+ </tr>
+ <tr>
+ <td>2.</td>
+ <td>Teknik</td>
+ <td>Teknik Industri</td>
+ </tr>
+ <tr>
+ <td>3.</td>
+ <td>Teknik</td>
+ <td>Teknik Lingkungan</td>
+ </tr>
+ </tbody>
+</table>
+~~~
+![tabel2](https://user-images.githubusercontent.com/81820421/114278972-7412f400-9a5c-11eb-973b-aae568aea68a.JPG)
 
 
