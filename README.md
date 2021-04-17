@@ -228,6 +228,53 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 ~~~
 ![tform3](https://user-images.githubusercontent.com/81820421/114280397-34033f80-9a63-11eb-9811-037dc0556a96.JPG)
 
+## Pertanyaan dan Tugas
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection. menampilkan dropdown menu
+~~~
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <title>Latihan 3</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+    </head>
+
+    <body style="background: rgb(230, 173, 216)">
+
+        <div style="width: 500px; padding: 15px; margin:200px auto;">
+
+            <div class="form-group">
+
+               <h1>Program Fakultas Studi</h1>
+
+                <label>Universitas Pelita Bangsa</label>
+
+                <select id="paket" name="paket[]" class="form-control" multiple="multiple">
+
+                    <option value=""></option>
+
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Teknik Industri">Teknik Industri</option>
+                    <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+                    <option value="Akuntansi">Akuntansi</option>
+                    <option value="Manajemen">Manajemen</option>
+                    <option value="Bisnis Digital">Bisnis Digital</option>
+
+                </select>
+            </div>
+        </div>
+</body>
+</html>
+~~~
+![soal1](https://user-images.githubusercontent.com/81820421/115106869-6f38cd80-9f91-11eb-9b66-c64733c6c557.JPG)
+
+
 
 
 
